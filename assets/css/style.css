@@ -69,14 +69,27 @@ header {
 	letter-spacing: 2px;
 }
 
-.box-work{
+#box-work{
 text-align: center;
 display: inline-block;
-padding: 10px 20px;
+padding: 20px 10px;
 }
-.box-work img{
+
+/*Cambié box-work a un id y cree la clase zoom para las imágenes*/
+
+#box-work img{
 width: 200px;
 }
+
+.zoom {
+	transition: 0.3s ease;
+}
+
+.zoom:hover{
+	transform: scale(2.5);
+
+}
+
 .container{
 text-align: center;
 }
